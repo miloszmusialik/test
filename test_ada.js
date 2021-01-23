@@ -1,4 +1,4 @@
-const a = 2;
-const b = 3;
+const a = 9;
+const b = 2;
 const c = a+b;
 console.log(c);
