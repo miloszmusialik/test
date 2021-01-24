@@ -1,0 +1,12 @@
+let x;
+let y;
+x = 10;
+console.log(x);
+y = 10;
+const a = x + y;
+console.log(a);
+x = y + 2;
+let b = x + y;
+console.log(x);
+console.log(a);
+console.log(b);
