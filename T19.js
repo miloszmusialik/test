@@ -4,9 +4,9 @@ const c = 300;
 
 let sum
 
-function add (a , b , c) {
+(function add (a , b , c) {
     sum = a + b + c;
     return sum;
-}
+})(a, b, c,);
 
-console.log(add (a, b, c));
+console.log(sum);
