@@ -6,7 +6,7 @@ const b = (a ? 'This is true' : 'This is false');
 
 console.log(b);
 
-const c = false;
+const c = true;
 const d = true;
 
 const e = (c ?
